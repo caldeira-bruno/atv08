@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empréstimos</title>
+    <link rel="stylesheet" href="loan.css">
+</head>
+
+<body>
+    <header>
+        <h1>Empréstimos / Atividade 08 - Front e Backend Node</h1>
+        <a href="../index.html">Início</a> 
+        <a href="../logout/logout.html">Logout</a><br><br>
+    </header>
+    <main>
+        <h2>Listagem</h2>
+        <button id="btNovo">Novo</button>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>CLIENTE</th>
+                    <th>ID Cliente</th>
+                    <th>VALOR</th>
+                    <th>INÍCIO</th>
+                    <th>FIM</th>
+                    <th>AÇÕES</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </main>
+    <div id="modal">
+        <form action="">
+            <input type="hidden" name="id" id="id"><br>
+            <!-- <label for="nome">Nome</label><br>
+            <select name="nome" id="nome"></select><br> -->
+            <label for="ClientId">Cliente</label><br>
+            <select name="ClientId" id="ClientId"></select><br>
+            <label for="valor">Valor (R$)</label><br>
+            <input type="number" name="valor" id="valor"><br>
+            <label for="inicio">Início</label><br>
+            <input type="date" name="inicio" id="inicio"><br>
+            <label for="fim">Fim</label><br>
+            <input type="date" name="fim" id="fim"><br>
+            <button>Salvar</button>
+        </form>
+    </div>
+    <footer>
+        <p>&copy Bruno - atividade 08</p>
+    </footer>
+</body>
+<script type="module" src="loan.js"></script>
+</html>

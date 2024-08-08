@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(71, 46, 14);
+    color: antiquewhite;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+}
+
+div {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(230, 220, 220, 0.8);
+    color: brown;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.mostrarModal {
+    display: flex !important;
+}
+
+div form {
+    width: 300px;
+    max-width: 80%;
+    border: 1px solid rgba(245, 221, 176);
+    background-color: rgba(230, 220, 220);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: white;
+    padding: 10px 0;
+}
+
+.listagem {
+    width: 50%;
+    margin-top: 20px; 
+    text-align: center;
+}
+
+a {
+    color: bisque;
+}
